@@ -27,6 +27,22 @@ A comprehensive tool to extract **every word** and **every image** from PDF docu
   - AI-powered image analysis (optional)
   - Search and filter capabilities
 
+## 🔗 Integration with PDF Remediator
+
+This extractor integrates with [PDF Remediator](https://github.com/adasheasu/pdfremediator) for a **complete PDF accessibility workflow**:
+
+```
+Extract → Analyze → Remediate → Verify
+```
+
+**Quick integration:**
+```bash
+# Complete workflow in one command
+python pdf_workflow.py input.pdf --output accessible.pdf --generate-report
+```
+
+See [INTEGRATION.md](INTEGRATION.md) for full integration guide or [WORKFLOW_GUIDE.md](WORKFLOW_GUIDE.md) for detailed workflows.
+
 ## Installation
 
 ### Required Dependencies
