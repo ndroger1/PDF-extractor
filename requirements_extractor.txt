@@ -1,0 +1,25 @@
+# PDF Extractor Requirements
+# Python 3.7+ required
+
+# Core dependencies (required)
+pikepdf>=8.0.0
+
+# Recommended for comprehensive extraction
+PyMuPDF>=1.23.0    # Best for image extraction and detailed text positioning
+pdfplumber>=0.10.0 # Best for word-level text extraction with positioning
+
+# Image processing (recommended)
+Pillow>=10.0.0     # For image manipulation and processing
+
+# Optional: OCR support for scanned documents
+pytesseract>=0.3.10  # Requires Tesseract-OCR installed on system
+# Install Tesseract: https://github.com/tesseract-ocr/tesseract
+
+# Optional: AI integration (for image description)
+# Uncomment if using AI features from the parent project
+# anthropic>=0.3.0
+# openai>=1.0.0
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=23.0.0
